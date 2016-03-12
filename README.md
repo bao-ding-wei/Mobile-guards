@@ -16,18 +16,18 @@
 ####截图
 <table>
 <tr>
-<td>![手机卫士截图](https://github.com/paifeng/resource/blob/master/2016-03-12_220600.png)</td>
-<td>![手机卫士截图](https://github.com/paifeng/resource/blob/master/2016-03-12_231356.png)</td>
-<td>![手机卫士截图](https://github.com/paifeng/resource/blob/master/2016-03-12_232235.png)</td>
+<td><img src='https://github.com/paifeng/resource/blob/master/2016-03-12_220600.png' /></td>
+<td><img src='https://github.com/paifeng/resource/blob/master/2016-03-12_231356.png' /></td>
+<td><img src='https://github.com/paifeng/resource/blob/master/2016-03-12_232235.png' /></td>
 </tr>
 <tr>
-<td>![手机卫士截图](https://github.com/paifeng/resource/blob/master/2016-03-12_232254.png)</td>
-<td>![手机卫士截图](https://github.com/paifeng/resource/blob/master/2016-03-12_232308.png)</td>
-<td>![手机卫士截图](https://github.com/paifeng/resource/blob/master/2016-03-12_232336.png)</td>
+<td><img src='https://github.com/paifeng/resource/blob/master/2016-03-12_232254.png' /></td>
+<td><img src='https://github.com/paifeng/resource/blob/master/2016-03-12_232308.png' /></td>
+<td><img src='https://github.com/paifeng/resource/blob/master/2016-03-12_232336.png' /></td>
 </tr>
 <tr>
-<td>![手机卫士截图](https://github.com/paifeng/resource/blob/master/2016-03-12_232353.png)</td>
-<td>![手机卫士截图](https://github.com/paifeng/resource/blob/master/2016-03-12_232422.png)</td>
-<td>![手机卫士截图](https://github.com/paifeng/resource/blob/master/2016-03-12_232522.png)</td>
+<td><img src='https://github.com/paifeng/resource/blob/master/2016-03-12_232353.png' /></td>
+<td><img src='https://github.com/paifeng/resource/blob/master/2016-03-12_232422.png' /></td>
+<td><img src='https://github.com/paifeng/resource/blob/master/2016-03-12_232522.png' /></td>
 </tr>
 </table>
