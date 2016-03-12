@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mobilesafe="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey2" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/TitleStyle"
+            android:text="手机防盗" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:elevation="2dp"
+            android:orientation="vertical" >
+
+            <com.boyzhang.projectmobilesafe.view.SettingItem2
+                android:id="@+id/si_antisteal_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                mobilesafe:desc_off="点击修改防盗密码"
+                mobilesafe:desc_on="点击修改防盗密码"
+                mobilesafe:showMore="true"
+                mobilesafe:title="防盗密码" />
+
+            <com.boyzhang.projectmobilesafe.view.SettingItem1
+                android:id="@+id/si_antisteal_isBindSim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                mobilesafe:desc_off="SIM卡未绑定"
+                mobilesafe:desc_on="SIM卡已绑定"
+                mobilesafe:title="SIM卡绑定" />
+
+            <com.boyzhang.projectmobilesafe.view.SettingItem1
+                android:id="@+id/si_antisteal_isActiveDevice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                mobilesafe:desc_off="未开启,无法远程锁屏和清除数据"
+                mobilesafe:desc_on="设备管理器已开启"
+                mobilesafe:title="设备管理器" />
+
+            <com.boyzhang.projectmobilesafe.view.SettingItem2
+                android:id="@+id/si_antisteal_safePhoneNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                mobilesafe:desc_off="未设定安全号码"
+                mobilesafe:desc_on=""
+                mobilesafe:showMore="false"
+                mobilesafe:title="安全号码" />
+
+            <com.boyzhang.projectmobilesafe.view.SettingItem2
+                android:id="@+id/si_antisteal_reset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                mobilesafe:desc_off="清除防盗数据并进入设置页面"
+                mobilesafe:desc_on="清除防盗数据并进入设置页面"
+                mobilesafe:showMore="true"
+                mobilesafe:title="重新设置手机防盗" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:elevation="2dp"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                style="@style/textList"
+                android:text="GPS追踪: #*location*#" />
+
+            <TextView
+                style="@style/textList"
+                android:text="播放音乐报警: #*alarm*#" />
+
+            <TextView
+                style="@style/textList"
+                android:text="远程删除数据: #*wipedata*#" />
+
+            <TextView
+                style="@style/textList"
+                android:text="远程锁屏: #*lockscreen*#" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

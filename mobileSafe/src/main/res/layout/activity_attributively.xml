@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1" >
+
+    <TextView
+        style="@style/TitleStyle"
+        android:layout_alignParentTop="true"
+        android:text="归属地查询" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" >
+
+        <TextView
+            android:id="@+id/tv_Attributively_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:layout_marginTop="80dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/grey"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/e_Attributively"
+            android:layout_width="match_parent"
+            android:layout_height="46dip"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_edittext"
+            android:hint="请输入手机号码"
+            android:inputType="number"
+            android:lines="1"
+            android:padding="5dip"
+            android:singleLine="true"
+            android:textColorHint="#AAAAAA"
+            android:textSize="15sp" />
+
+        <!--
+        <Button
+            android:id="@+id/b_Attributively"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_button2"
+            android:text="查询"
+            android:textSize="13sp" />-->
+    </LinearLayout>
+
+</RelativeLayout>

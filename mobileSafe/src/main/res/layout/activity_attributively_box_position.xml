@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dd000000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_attributively_toptips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/call_locate_blue"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="按住提示框拖拽到任意位置\n\r按手机返回键立即生效"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_attributively_bottomtips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/call_locate_blue"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="按住提示框拖拽到任意位置\n\r按手机返回键立即生效"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/iv_attributively_positionbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="100dp"
+        android:contentDescription=""
+        android:src="@drawable/positionbox" />
+
+</RelativeLayout>

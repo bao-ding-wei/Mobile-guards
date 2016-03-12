@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?><!--Android Studio 中自定义View的命名空间通用使用 http://schemas.android.com/apk/res-auto -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mobilesafe="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TitleStyle"
+            android:text="高级工具" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:elevation="2dp"
+            android:orientation="vertical">
+
+            <com.boyzhang.projectmobilesafe.view.SettingItem2
+                android:id="@+id/si_advancetools_phoneAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                mobilesafe:desc_off="电话号码归属地查询"
+                mobilesafe:desc_on="电话号码归属地查询"
+                mobilesafe:showMore="true"
+                mobilesafe:title="归属地查询" />
+
+            <com.boyzhang.projectmobilesafe.view.SettingItem2
+                android:id="@+id/si_advancetools_backupSMS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                mobilesafe:desc_off="一键备份短信"
+                mobilesafe:desc_on="一键备份短信"
+                mobilesafe:showMore="true"
+                mobilesafe:title="短信备份" />
+
+            <com.boyzhang.projectmobilesafe.view.SettingItem2
+                android:id="@+id/si_advancetools_usuallyPhoneNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                mobilesafe:desc_off="查询生活常用号码"
+                mobilesafe:desc_on="查询生活常用号码"
+                mobilesafe:showMore="true"
+                mobilesafe:title="常用号码" />
+
+            <com.boyzhang.projectmobilesafe.view.SettingItem2
+                android:id="@+id/si_advancetools_appLock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                mobilesafe:desc_off="安全锁定程序"
+                mobilesafe:desc_on="安全锁定程序"
+                mobilesafe:showMore="true"
+                mobilesafe:title="程序锁" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">F卫士</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sample_device_admin_description">开启设备管理器可以支持一键锁屏,清除数据等</string>
+    <string name="sample_device_admin">设备管理器</string>
+    <string name="title_activity_blacklist">BlacklistActivity</string>
+    <string name="title_activity_blacklist_by_page">BlacklistByPageActivity</string>
+    <string name="title_activity_blacklist_by_batches">BlacklistByBatchesActivity</string>
+    <string name="title_activity_app_manage">AppManageActivity</string>
+    <string name="title_activity_backup_sms">BackupSMS</string>
+    <string name="title_activity_process_manage">ProcessManageActivity</string>
+    <string name="title_activity_antivirus">AntivirusActivity</string>
+    <string name="title_activity_app_lock">AppLockActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_enter_password">EnterPasswordActivity</string>
+    <string name="title_activity_cache_clear">CacheClearActivity</string>
+    <string name="title_activity_app_market">AppMarketActivity</string>
+    <string name="title_activity_traffic_manager">TrafficManagerActivity</string>
+
+</resources>

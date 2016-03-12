@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="20dp">
+
+
+            <ImageView
+                android:id="@+id/iv_trafficManager_item_icon"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/app_logo" />
+
+            <TextView
+                android:id="@+id/tv_trafficManager_item_appName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/iv_trafficManager_item_icon"
+                android:maxLength="10"
+                android:text="手机卫士"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_trafficManager_item_uploadSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/iv_appInfos_icon"
+                android:layout_below="@id/tv_trafficManager_item_appName"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/iv_trafficManager_item_icon"
+                android:maxLength="15"
+                android:text="上传 : 23.5M"
+                android:textColor="@color/grey"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/iv_trafficManager_item_totalSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="50M"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_trafficManager_item_downloadSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/iv_trafficManager_item_icon"
+                android:layout_below="@id/tv_trafficManager_item_appName"
+                android:layout_marginRight="15sp"
+                android:layout_toLeftOf="@id/iv_trafficManager_item_totalSize"
+                android:maxLength="15"
+                android:text="下载 : 28.0K"
+                android:textColor="@color/grey"
+                android:textSize="13sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

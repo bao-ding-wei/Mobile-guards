@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="20dp">
+
+
+            <ImageView
+                android:id="@+id/iv_runningAppInfos_icon"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/app_logo" />
+
+            <TextView
+                android:id="@+id/tv_runningAppInfos_appName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/iv_runningAppInfos_icon"
+                android:maxLength="10"
+                android:text="手机卫士"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_runningAppInfos_PID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/iv_runningAppInfos_icon"
+                android:layout_below="@id/tv_appInfos_appName"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/iv_runningAppInfos_icon"
+                android:gravity="bottom"
+                android:maxLength="15"
+                android:text="手机内存"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <!-- 这里为CheckBox设置了选择器,需要注意的是:CheckBox用的需求属性是android:button=""-->
+            <CheckBox
+                android:id="@+id/iv_runningAppInfos_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:button="@drawable/btn_check"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+
+            <TextView
+                android:id="@+id/tv_runningAppInfos_memoSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/iv_runningAppInfos_icon"
+                android:layout_below="@id/tv_appInfos_appName"
+                android:layout_marginRight="15sp"
+                android:layout_toLeftOf="@id/iv_runningAppInfos_selector"
+                android:gravity="bottom"
+                android:maxLength="15"
+                android:text="28.0K"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

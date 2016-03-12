@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/e_set_guide_safePhoneNum"
+            android:layout_width="match_parent"
+            android:layout_height="36dip"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_edittext"
+            android:hint="安全号码"
+            android:inputType="number"
+            android:lines="1"
+            android:padding="5dip"
+            android:singleLine="true"
+            android:textColorHint="#AAAAAA"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/b_set_guide_selectContact"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_button2"
+            android:text="点击选择联系人"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 自定义命名空间 -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mobilesafe="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 标题 -->
+
+        <TextView
+            style="@style/TitleStyle"
+            android:text="设置中心" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:elevation="2dp"
+            android:orientation="vertical">
+
+            <!-- 这里采用了自定义View -->
+            <!-- 使用了自定义属性 -->
+
+            <com.boyzhang.projectmobilesafe.view.SettingItem1
+                android:id="@+id/si_items_autoupdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                mobilesafe:desc_off="自动更新已关闭"
+                mobilesafe:desc_on="自动更新已开启"
+                mobilesafe:title="自动更新设置" />
+
+            <com.boyzhang.projectmobilesafe.view.SettingItem1
+                android:id="@+id/si_items_telephoneAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                mobilesafe:desc_off="归属地显示设置已关闭"
+                mobilesafe:desc_on="归属地显示设置已开启"
+                mobilesafe:title="归属地显示设置" />
+
+            <com.boyzhang.projectmobilesafe.view.SettingItem2
+                android:id="@+id/si_items_TelephoneAddressStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                mobilesafe:desc_off="默认"
+                mobilesafe:desc_on="默认"
+                mobilesafe:showMore="true"
+                mobilesafe:title="归属地显示样式" />
+
+            <com.boyzhang.projectmobilesafe.view.SettingItem2
+                android:id="@+id/si_items_TelephoneAddressBoxPosition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                mobilesafe:desc_off="设置归属地弹窗位置"
+                mobilesafe:desc_on="设置归属地弹窗位置"
+                mobilesafe:showMore="true"
+                mobilesafe:title="归属地显示位置" />
+
+            <com.boyzhang.projectmobilesafe.view.SettingItem1
+                android:id="@+id/si_items_windowRocket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                mobilesafe:desc_off="显示或隐藏桌面小火箭"
+                mobilesafe:desc_on="显示或隐藏桌面小火箭"
+                mobilesafe:title="小火箭" />
+
+            <com.boyzhang.projectmobilesafe.view.SettingItem1
+                android:id="@+id/si_items_blacklist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                mobilesafe:desc_off="开启或关闭黑名单拦截"
+                mobilesafe:desc_on="开启或关闭黑名单拦截"
+                mobilesafe:title="黑名单拦截" />
+
+            <com.boyzhang.projectmobilesafe.view.SettingItem1
+                android:id="@+id/si_items_desktop_icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                mobilesafe:desc_off="桌面快捷图标已经关闭"
+                mobilesafe:desc_on="桌面快捷图标已经开启"
+                mobilesafe:title="桌面快捷图标" />
+
+            <com.boyzhang.projectmobilesafe.view.SettingItem1
+                android:id="@+id/si_items_watchdog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                mobilesafe:desc_off="看门狗已经关闭"
+                mobilesafe:desc_on="看门狗已经开启"
+                mobilesafe:title="看门狗" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
