@@ -13,6 +13,7 @@
 -	11.应用中心(一个积分平台的APP推广)
 
 ***
-####首页截图
+####截图
 ![首页](https://github.com/paifeng/resource/blob/master/2016-03-12_220600.png)
+![黑名单拦截](https://github.com/paifeng/resource/blob/master/2016-03-12_231356.png)
 
