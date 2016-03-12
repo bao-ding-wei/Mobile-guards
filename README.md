@@ -52,7 +52,7 @@
 ##
 =====================================================================================
 
-个人博客 : <a href='http：//www.boyzhang.com'>个人博客 http：//www.boyzhang.com</a>
+个人博客 : <a href='http：//www.boyzhang.com'>个人博客 http：///www.boyzhang.com</a>
  
 邮箱	 : 6feng6@gmail.com
 
