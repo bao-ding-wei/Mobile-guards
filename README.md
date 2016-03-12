@@ -14,6 +14,7 @@
 
 ***
 ####截图
+![手机卫士截图](https://github.com/paifeng/resource/blob/master/2016-03-12_220600.png)
 <table>
 	<tr>
 		<td>![手机卫士截图](https://github.com/paifeng/resource/blob/master/2016-03-12_220600.png)</td>
